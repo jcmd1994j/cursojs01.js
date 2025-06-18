@@ -1,14 +1,16 @@
-const readlineSync= require ("readline-sync");
+const readlineSync=require('readline-sync');
 
-const produto=Number (readlineSync.question("Qual valor do produto?"));
-calculo1=45/100*produto;
-calculo2=30/100*produto;
+const produto=Number(readlineSync.question("Qual o valor do produto?"))
 
-if (50 <= produto){
-    console.log("Valor a pagar:",calculo1+produto)
+calculo45=produto*45/100;
+calculo30=produto*30/100;
+
+
+if (50 > produto){
+console.log(`O produto será vendido por 45% porque foi abaixo de 50,00 R$ ou seja :${calculo45} R$`)
 }
-else if( 50 >= produto ){
-    console.log("Valor a pagar ",calculo2-produto)
+else if( 50 < produto ){
+    console.log(`O produto será vendido por 30% de lucro se for um valor de 50,00 R$ ou mais ou seja :${calculo30} R$`)
 }
 
 
