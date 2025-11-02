@@ -1,25 +1,25 @@
-const questaA =4 + 6 * 2;
-const questaB = 10 / 5 + 8;
-const questaC =12 / 4 + 16 / 2;
-const questaD = 17 + 20/ 5;
-const questaE =22 / 5 + 7;
-const questaF =39 / 10;
-const questaG = 19 % (2 + 3);
-const questaH = 3 + 4 * 20 / 3;
-const questaI =36 % (6 + 2);
-const questaJ = 8 % 2 * 0
 
+const QuestaoA= 4 + 6 * 2;
+const QuestaoB=10 / 5 + 8;
+const QuestaoC=12 / 4 + 16 / 2;
+const QuestaoD=17 + 20/ 5;
+const QuestaoE=22 / 5 + 7;
+const QuestaoF=39 / 10;
+const QuestaoG=19 % (2 + 3);
+const QuestaoH=3 + 4 * 20 / 3;
+const QuestaoI=36 % (6 + 2);
+const QuestaoJ=8 % 2 * 0;
 
-console.log("Valor da questão a",questaA);
-console.log("Valor da questão a",questaB);
-console.log("Valor da questão a",questaC);
-console.log("Valor da questão a",questaD);
-console.log("Valor da questão a",questaE);
-console.log("Valor da questão a",questaF);
-console.log("Valor da questão a",questaG);
-console.log("Valor da questão a",questaH);
-console.log("Valor da questão a",questaI);
-console.log("Valor da questão a",questaJ);
+console.log(`resposta da questão a :${QuestaoA}`)
+console.log(`resposta da questão b:${QuestaoB}`)
+console.log(`resposta da questão c :${QuestaoC}`)
+console.log(`resposta da questão d :${QuestaoD}`)
+console.log(`resposta da questão e :${QuestaoE}`)
+console.log(`resposta da questão f :${QuestaoF}`)
+console.log(`resposta da questão g :${QuestaoG}`)
+console.log(`resposta da questão h :${QuestaoH}`)
+console.log(`resposta da questão i :${QuestaoI}`)
+console.log(`resposta da questão j :${QuestaoJ}`)
 
 
 
