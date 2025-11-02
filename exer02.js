@@ -1,75 +1,98 @@
-const readlineSync = require('readline-sync');
-const irmaos = readlineSync.question("o número de irmãos que você tem?");
-const minAn= readlineSync.question("a quantidade de minutos de um ano?");
-const idap= readlineSync.question("a idade de uma pessoa?");
-const estud= readlineSync.question("a média da idade dos estudantes dessa classe?");
-const popT= readlineSync.question("a população da terra?");
-const temp= readlineSync.question("a temperatura média de ontem?");
-const novela = readlineSync.question("o nome de uma novela brasileira?");
-const lampad= readlineSync.question("a potência nominal de uma lâmpada?");
-const lapadI= readlineSync.question("a potência real de uma lâmpada, aferida pelo Inmetro?");
-const popM= readlineSync.question("a população de um município?");
-const pesoP= readlineSync.question("o peso de uma pessoa?");
-const velo= readlineSync.question("a velocidade do vento na região de uma determinada usina eólica?");
-const altM = readlineSync.question("a altura de uma pessoa em metros?");
-const altuC= readlineSync.question("a altura de uma pessoa em centimetros?");
-const dolar= readlineSync.question("a cotação do dólar em reais?");
-const jogB= readlineSync.question("a pontuação de um time em um jogo de basquete?");
-const precoTv= readlineSync.question("o preço de uma TV?");
-const minis= readlineSync.question("o salário de um ministro de Estado?");
-const animal= readlineSync.question("o número de pernas de um animal?");
-const presi= readlineSync.question("o nome de um presidente da velha república?");
-const auto= readlineSync.question("o preço de um automóvel?");
+const readlineSync= require ('readline-sync');
 
-console.log("Minutos de um ano:",minAn);
-console.log(" A idade de uma pessoa:",idap);
-console.log("a média da idade dos estudantes dessa classe:",estud);
-console.log("a população da terra:",popT);
-console.log("a temperatura média de ontem:",temp)
-console.log("nome de uma novela brasileira:",novela)
-console.log("a potência nominal de uma lâmpada:",lampad)
-console.log("a potência real de uma lâmpada, aferida pelo Inmetro:",lapadI)
-console.log("a população de um município:",popM)
-console.log("o peso de uma pessoa:",pesoP)
-console.log("a velocidade do vento na região de uma determinada usina eólica:",velo)
-console.log("a altura de uma pessoa em metros:",altM)
-console.log("a altura de uma pessoa em centímetros:",altuC)
-console.log("a cotação do dólar em reais:",dolar)
-console.log("a pontuação de um time em um jogo de basquete:",jogB)
-console.log("o preço de uma TV:",precoTv)
-console.log("o salário de um ministro de Estado:",minis)
-console.log("o nome de um presidente da velha república:",presi)
-console.log("o número de pernas de um animal:",animal)
-console.log("o preço de um automóvel:",auto)
+const irmao=readlineSync.question( "O número de irmãos que você tem?");
+const conceito=readlineSync.question("Seu conceito nesta aula?");
+const minutosAno=readlineSync.question("A quantidade de minutos de um ano? ");
+const idadePesssoa=readlineSync.question("A idade de uma pessoa? ");
+const estudantes=readlineSync.question("A média da idade dos estudantes dessa classe ?");
+const populacao=readlineSync.question("A população da terra ?");
+const temperatura=readlineSync.question("A temperatura média de ontem ?");
+const novela=readlineSync.question(" O nome de uma novela brasileira ?");
+const nominalpotencia=readlineSync.question("A potência nominal de uma lâmpada ?");
+const imetro=readlineSync.question("A potência real de uma lâmpada, aferida pelo Inmetro ?");
+const municipio=readlineSync.question("A população de um município ?");
+const peso=readlineSync.question("O peso de uma pessoa ?");
+const eolica=readlineSync.question("A velocidade do vento na região de uma determinada usina eólica ?");
+const alturaMetros=readlineSync.question("A altura de uma pessoa em metros ?");
+const alturaCentimetros=readlineSync.question("A altura de uma pessoa em centímetros ?");
+const dolar=readlineSync.question("A cotação do dólar em reais?");
+const basquete=readlineSync.question("A pontuação de um time em um jogo de basquete ?");
+const precotv=readlineSync.question("O preço de uma TV ?");
+const ministro=readlineSync.question("O salário de um ministro de Estado ?");
+const repuplicaNome=readlineSync.question("O nome de um presidente da velha república ?");
+const animal=readlineSync.question("O número de pernas de um animal ?");
+const automovel=readlineSync.question("O preço de um automóvel?");
 
 
+console.log(irmao);
+console.log(conceito);
+console.log(minutosAno);
+console.log(idadePesssoa);
+console.log(estudantes);
+console.log(populacao);
+console.log(temperatura);
+console.log(novela);
+console.log(nominalpotencia);
+console.log(imetro);
+console.log(municipio);
+console.log(peso);
+console.log(eolica);
+console.log(alturaMetros);
+console.log(alturaCentimetros);
+console.log(dolar);
+console.log(basquete);
+console.log(precotv);
+console.log(ministro);
+console.log(repuplicaNome);
+console.log(animal);
+console.log(automovel);
 
 
 
 
-/*2. Tipos de dados – Escolha o melhor tipo de dados para cada uma das situações
-abaixo e forneça um exemplo de um valor típico que seria mantido pela variável
-e explique por que você escolheu o tipo escolhido.
-o número de irmãos que você tem
-seu conceito nesta aula
-a quantidade de minutos de um ano
-a idade de uma pessoa
-a média da idade dos estudantes dessa classe
-a população da terra
-a temperatura média de ontem
-o nome de uma novela brasileira
-a potência nominal de uma lâmpada
-a potência real de uma lâmpada, aferida pelo Inmetro
-a população de um município
-o peso de uma pessoa
-a velocidade do vento na região de uma determinada usina eólica
-a altura de uma pessoa em metros
-a altura de uma pessoa em centímetros
-a cotação do dólar em reais
-a pontuação de um time em um jogo de basquete
-o preço de uma TV
-o salário de um ministro de Estado
-o nome de um presidente da velha república
-o número de pernas de um animal
-o preço de um automóve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*2. Tipos de dados – Escolha o melhor tipo de dados para cada uma das situações 
+abaixo e forneça um exemplo de um valor típico que seria mantido pela variável 
+e explique por que você escolheu o tipo escolhido. 
+a. o número de irmãos que você tem 
+b. seu conceito nesta aula 
+c. a quantidade de minutos de um ano 
+d. a idade de uma pessoa 
+e. a média da idade dos estudantes dessa classe 
+f. 
+a população da terra 
+g. a temperatura média de ontem 
+h. o nome de uma novela brasileira 
+i. 
+a potência nominal de uma lâmpada 
+j. 
+a potência real de uma lâmpada, aferida pelo Inmetro 
+k. a população de um município 
+l. 
+o peso de uma pessoa 
+m. a velocidade do vento na região de uma determinada usina eólica 
+n. a altura de uma pessoa em metros 
+o. a altura de uma pessoa em centímetros 
+p. a cotação do dólar em reais 
+q. pontuação de um time em um jogo de basquete 
+r. 
+o preço de uma TV 
+s. o salário de um ministro de Estado 
+t. 
+o nome de um presidente da velha república 
+u. o número de pernas de um animal 
+v. o preço de um automóvel
 */
