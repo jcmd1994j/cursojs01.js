@@ -3,7 +3,7 @@ const readlineSny=require('readline-sync')
 const ovosduzia=Number(readlineSny.question("Quantas duzias você irar comprar?"));
 const ovosunidade=Number(readlineSny.question("Quantas unidades de ovos você ira comprar?"));
 
-calculoOvosDuzia=ovosduzia*3.35;
+calculoOvosDuzia=ovosduzia*3.25;
 calculoOvosUnidade=ovosunidade*ovosduzia*0.45;
 
 
