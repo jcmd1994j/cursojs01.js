@@ -61,7 +61,9 @@ console.log('falso')
 if(numero1 == 30  && numero2 == 100 || numero3 == 100){
 console.log('falso')
 }
-
+else {
+console.log(`erro`)
+}
 
 
 
@@ -103,3 +105,4 @@ p. numero1 = 100 OU numero1 > numero3
 q. numero1 < 10 OU numero3 > 10
 r. numero1 = 30 E numero2 = 100 OU numero3 = 100
 */
+
