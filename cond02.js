@@ -18,6 +18,9 @@ console.log('O numero 1 é menor que o número 2!')
 if(numero2 < numero1){
 console.log('O numero 2 é menor que o número 1!')
 }
+else {
+console.log(`erro`)
+}
 
 
 
@@ -40,3 +43,4 @@ console.log('O numero 2 é menor que o número 1!')
 o valor deles, exiba uma das seguintes mensagens: “O primeiro número informado
 é o maior”, “O segundo número é o maior” ou “Ambos os números são iguais”. 
 */
+
