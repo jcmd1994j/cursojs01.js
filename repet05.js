@@ -1,7 +1,14 @@
-for(var numero25=25;numero25>=0 ;numero25 -=1){
-    console.log(numero25)
+const readlineSny=require('readline-sync')
+
+
+
+
+for(let c=25;c>=0;c--){
+    console.log(c);
 
 }
+
+
 
 
 
